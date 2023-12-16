@@ -1,0 +1,38 @@
+{
+  "name": "diaself",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc && node dist/app.js",
+    "dev": "nodemon -e ts --exec \"npm run compile\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almas77abolfazl/DiaSelf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almas77abolfazl/DiaSelf/issues"
+  },
+  "homepage": "https://github.com/almas77abolfazl/DiaSelf#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.22.10",
+    "mongoose": "^8.0.3",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.0.2",
+    "rxjs": "^7.8.1",
+    "telegraf": "^4.15.3",
+    "telegram": "^2.19.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/node-cron": "^3.0.11",
+    "tslint": "^6.1.3",
+    "typescript": "^5.3.3"
+  }
+}
